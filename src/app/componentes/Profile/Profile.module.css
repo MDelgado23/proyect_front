@@ -1,0 +1,143 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  font-family: "Bungee Inline", cursive;
+  width: 100%;
+  height: 100%;
+}
+
+.profileSection {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  align-items: flex-start;
+}
+
+.imageSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.profileImage {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #1abc9c;
+}
+
+.imageButtons {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.uploadButton,
+.deleteButton {
+  background-color: #34495e;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.uploadButton:hover,
+.deleteButton:hover {
+  background-color: #1abc9c;
+}
+
+.infoSection {
+  flex-grow: 1;
+}
+
+.passwordToggle {
+  cursor: pointer;
+  text-align: center;
+  background-color: #34495e;
+  border-radius: 5px;
+  width: 50%;
+  margin-bottom: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.passwordButton {
+  color: white;
+  background-color: #34495e;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 100%;
+  font-family: "Bungee Inline";
+  font-weight: 100;
+  font-size: 1rem;
+}
+
+.passwordButton:hover {
+  background-color: #1abc9c;
+}
+
+.passwordSection {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  overflow: hidden;
+  align-items: center;
+  width: 100%;
+}
+
+.passwordSection input {
+  margin: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: #1c1f38;
+  color: white;
+  font-family: inherit;
+  width: 70%;
+  border: 2px solid #1abc9c;
+}
+
+.passwordSection button {
+  background-color: #34495e;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.passwordSection button:hover {
+  background-color: #1abc9c;
+}
+
+.passwordUpdateButton {
+  color: white;
+  background-color: #34495e;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 50%;
+  font-family: "Bungee Inline";
+  font-weight: 100;
+  font-size: 1rem;
+  margin: 10px;
+}
+
+.passwordUpdateButton:hover {
+  background-color: #1abc9c;
+}

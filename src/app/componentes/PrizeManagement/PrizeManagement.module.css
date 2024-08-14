@@ -1,0 +1,43 @@
+.container {
+  padding: 20px;
+  width: 50%;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table th,
+.table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.table th {
+  background-color: #f2f2f2;
+  text-align: left;
+}
+
+.input[type="text"] {
+  width: 100%;
+  padding: 5px;
+  margin: 5px 0;
+  box-sizing: border-box;
+}
+
+.button {
+  padding: 5px 10px;
+  margin: 5px;
+}
+
+.createButton {
+  margin-top: 0.83rem;
+  margin-bottom: 0.83rem;
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}

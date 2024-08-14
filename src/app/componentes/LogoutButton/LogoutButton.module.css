@@ -1,0 +1,15 @@
+.button {
+  background-color: red;
+  color: rgb(202, 202, 202);
+  border: none;
+  border-radius: 5px;
+  padding: 1rem 2rem;
+  font-size: 0.8rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease,
+    box-shadow 0.3s ease;
+  width: 100%;
+  max-width: 180px;
+  font-family: inherit;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}

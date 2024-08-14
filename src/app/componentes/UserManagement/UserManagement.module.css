@@ -1,0 +1,61 @@
+.container {
+  padding: 20px;
+  width: 80%;
+}
+
+.table {
+  border-collapse: collapse;
+}
+
+.table th,
+.table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.table th {
+  background-color: #f2f2f2;
+  text-align: left;
+  width: 20% !important
+}
+
+.table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.table tr:hover {
+  background-color: #ddd;
+}
+
+.table th,
+.table td input,
+.table td select {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.button {
+  margin-right: 5px;
+  padding: 5px 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #45a049;
+}
+
+.button + button {
+  background-color: #f44336;
+}
+
+.button + button:hover {
+  background-color: #e53935;
+}
+
+.twentyPer{
+  width: 20%;
+}
